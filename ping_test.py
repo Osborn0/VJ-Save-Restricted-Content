@@ -1,8 +1,8 @@
 import os
 
 def test_connection():
-    result = os.popen("ping -c 3 ac-azylfst-shard-00-00.mxnt38b.mongodb.net").read()
-    print("=== PING RESULT ===")
+    result = os.popen("curl -I https://ac-azylfst-shard-00-00.mxnt38b.mongodb.net:27017").read()
+    print("=== CURL RESULT ===")
     print(result)
     print("===================")
 
