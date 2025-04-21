@@ -2,6 +2,7 @@
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
+import ping_test
 import os
 import asyncio 
 import pyrogram
